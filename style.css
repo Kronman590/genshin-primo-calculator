@@ -1,0 +1,16 @@
+.header {
+    padding: 10px; /* some padding */
+    text-align: center; /* center the text */
+    background: grey; /* green background */
+    color: white; /* white text color */
+  }
+  /* Increase the font size of the <h1> element */
+  .header h1 {
+    font-size: 40px;
+    white-space: nowrap;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #131313; /* green background */
+  }
