@@ -1,4 +1,5 @@
 var Amber = {
+    "Name": "Amber",
     "1Hit": {dmg:36.1,elemental:false},
     "2Hit": {dmg:36.1,elemental:false},
     "3Hit": {dmg:46.4,elemental:false},
@@ -13,6 +14,7 @@ var Amber = {
 }
 
 var Barbara = {
+    "Name": "Barbara",
     "1Hit": {dmg:37.8,elemental:true},
     "2Hit": {dmg:35.5,elemental:true},
     "3Hit": {dmg:41,elemental:true},
@@ -24,6 +26,7 @@ var Barbara = {
 }
 
 var Beidou = {
+    "Name": "Beidou",
     "1Hit": {dmg:71.1,elemental:false},
     "2Hit": {dmg:70.9,elemental:false},
     "3Hit": {dmg:88.3,elemental:false},
@@ -38,6 +41,7 @@ var Beidou = {
 }
 
 var temp = {
+    "Name": "temp",
     "1Hit": {dmg:000000,elemental:false},
     "2Hit": {dmg:000000,elemental:false},
     "3Hit": {dmg:000000,elemental:false},
@@ -53,3 +57,5 @@ var temp = {
     "Burst": {dmg:000000,elemental:false},
     "BurstSec": {dmg:000000,elemental:true}
 }
+
+var characters = [Amber,Barbara,Beidou];
