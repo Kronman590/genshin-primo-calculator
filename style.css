@@ -12,5 +12,15 @@
   
   body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #131313; /* green background */
+    color: white;
+    background: #131313; /* black background */
+    text-align: center;
+  }
+
+  span {
+    display: inline-block;
+  }
+
+  div, span {
+    padding: 5px; 
   }
