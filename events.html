@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Genshin Impact Primogem Calculator</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+<body onLoad="createTable()">
+    <div class="header">
+        <h1>Genshin Impact Free Primogem Calculator</h1>
+        <p>This calculator will take into account the various time-based methods of obtaining primogems to help set expectations when saving.<br>
+        <b>Assumptions:</b><br>Battle Pass advances 10 levels every Monday, counting only the gems & Intertwined Fates.<br>
+        Spiral Abyss gems are obtained on reset (1st and 16th of each month).<br>
+        Only Intertwined Fates are counted from the Stardust shop. Assumed all 5 are purchased.<br>
+        Event gems are obtained when they begin (i.e. login events last 2 weeks, but rewards are obtained in the first 7 days).</p>
+    </div>
+    <div class="navbar">
+        <a href="calc.html">Calculator</a>
+        <a href="">Events</a>
+    </div>
+    <table id=events style="width:100%">
+        <tr>
+          <th>Event Name</th>
+          <th>Start Date</th>
+          <th>End Date</th>
+          <th>Total Primogems</th>
+        </tr>
+    <script type="text/javascript" src="events.js"></script>
+</body>
+</html>
