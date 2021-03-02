@@ -1,5 +1,4 @@
-var events = [["Wish Upon a Lantern","2021-02-26",100],
-["Night Sky's Grace","2021-02-26",160],
+var events = [["Night Sky's Grace","2021-02-26",160],
 ["Night Sky's Grace","2021-02-28",160],
 ["Mihoyo Web Login","2021-03-01",100],
 ["Night Sky's Grace","2021-03-02",160],
