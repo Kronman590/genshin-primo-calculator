@@ -1,6 +1,7 @@
 var events = [["Wish Upon a Lantern","2021-02-26",100],
 ["Night Sky's Grace","2021-02-26",160],
 ["Night Sky's Grace","2021-02-28",160],
+["Mihoyo Web Login","2021-03-01",100],
 ["Night Sky's Grace","2021-03-02",160],
 ["Hu Tao Trial","2021-03-03",20],
 ["Vishaps and Where to Find Them","2021-03-05",20],
