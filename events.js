@@ -1,6 +1,7 @@
 var events = [["Hu Tao Trial","2021-03-03",20],
 ["Vishaps and Where to Find Them","2021-03-05",20+15+15+10],
 ["Vishaps and Where to Find Them","2021-03-06",20+15+15+10],
+["1.4 Livestream Rewards","2021-03-06",300],
 ["Vishaps and Where to Find Them","2021-03-07",20+15+15+10],
 ["Mihoyo Web Login","2021-03-07",20],
 ["Vishaps and Where to Find Them","2021-03-08",20+15+15+10],
@@ -9,6 +10,7 @@ var events = [["Hu Tao Trial","2021-03-03",20],
 ["Vishaps and Where to Find Them","2021-03-11",20+15+15+10],
 ["Vishaps and Where to Find Them","2021-03-12",20+15+15+10],
 ["Mihoyo Web Login","2021-03-14",20],
+["1.4 Patch Compentation","2021-03-17",300],
 ["Venti Trial","2021-03-17",20],
 ["Mihoyo Web Login","2021-03-21",20]];
 
