@@ -1,18 +1,13 @@
-var events = [["Hu Tao Trial","2021-03-03",20],
-["Vishaps and Where to Find Them","2021-03-05",20+15+15+10],
-["Vishaps and Where to Find Them","2021-03-06",20+15+15+10],
-["1.4 Livestream Rewards","2021-03-06",300],
-["Vishaps and Where to Find Them","2021-03-07",20+15+15+10],
-["Mihoyo Web Login","2021-03-07",20],
-["Vishaps and Where to Find Them","2021-03-08",20+15+15+10],
-["Vishaps and Where to Find Them","2021-03-09",20+15+15+10],
-["Vishaps and Where to Find Them","2021-03-10",20+15+15+10],
-["Vishaps and Where to Find Them","2021-03-11",20+15+15+10],
-["Vishaps and Where to Find Them","2021-03-12",20+15+15+10],
-["Mihoyo Web Login","2021-03-14",20],
-["1.4 Patch Compentation","2021-03-17",300],
-["Venti Trial","2021-03-17",20],
-["Mihoyo Web Login","2021-03-21",20]];
+var events = [["Mihoyo Web Login","2021-03-13",20],
+["1.4 Patch Compentation","2021-03-16",300],
+["Venti Trial","2021-03-16",20],
+["Hangout Event 1","2021-03-16",60],
+["Hangout Event 2","2021-03-18",60],
+["Login Event Day 3","2021-03-18",100],
+["Mihoyo Web Login","2021-03-20",20],
+["Hangout Event 3","2021-03-20",60],
+["Hangout Event 4","2021-03-22",60],
+["Login Event Day 7","2021-03-22",200]];
 
 function createTable() {
     var table = document.getElementById("events");
