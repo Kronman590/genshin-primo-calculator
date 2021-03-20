@@ -1,16 +1,17 @@
-var events = [["Mihoyo Web Login","2021-03-13",20],
-["1.4 Patch Compentation","2021-03-16",300],
-["Venti Trial","2021-03-16",20],
-["Hangout Event 1","2021-03-16",60],
+var events = [["Hangout Event 1","2021-03-16",60],
 ["Wanmin Web Event 1","2021-03-17",50],
 ["Hangout Event 2","2021-03-18",60],
 ["Login Event Day 3","2021-03-18",100],
+["Windblume Act 1","2021-03-19",250],
 ["Wanmin Web Event 2","2021-03-19",50],
 ["Mihoyo Web Login","2021-03-20",20],
 ["Hangout Event 3","2021-03-20",60],
 ["Wanmin Web Event 3","2021-03-21",50],
+["Windblume Act 2","2021-03-22",250],
 ["Hangout Event 4","2021-03-22",60],
-["Login Event Day 7","2021-03-22",200]];
+["Login Event Day 7","2021-03-22",200],
+["Windblume Act 3","2021-03-25",250],
+["Windblume Act 4","2021-03-28",250]];
 
 function createTable() {
     var table = document.getElementById("events");
