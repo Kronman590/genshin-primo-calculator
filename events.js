@@ -1,8 +1,8 @@
-var events = [["Contending Tides Day 1","2021-04-02",60],
-["Contending Tides Day 2","2021-04-03",60],
-["Contending Tides Day 3","2021-04-04",60],
-["Contending Tides Day 4","2021-04-05",60],
-["Contending Tides Day 5","2021-04-06",60],
+var events = [["Contending Tides","2021-04-02",60],
+["Contending Tides","2021-04-03",60],
+["Contending Tides","2021-04-04",60],
+["Contending Tides","2021-04-05",60],
+["Contending Tides","2021-04-06",60],
 ["Mihoyo Web Login","2021-04-06",20],
 ["Mihoyo Web Login","2021-03-13",20],
 ["Mihoyo Web Login","2021-03-20",20]];
