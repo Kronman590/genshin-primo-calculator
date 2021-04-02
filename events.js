@@ -4,6 +4,8 @@ var events = [["Contending Tides","2021-04-02",60],
 ["Contending Tides","2021-04-05",60],
 ["Contending Tides","2021-04-06",60],
 ["Mihoyo Web Login","2021-04-06",20],
+["Contending Tides","2021-04-07",60],
+["Contending Tides","2021-04-08",60],
 ["Mihoyo Web Login","2021-03-13",20],
 ["Mihoyo Web Login","2021-03-20",20]];
 
