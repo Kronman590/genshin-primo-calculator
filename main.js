@@ -47,6 +47,13 @@ function calcGems() {
         today = incrementDate(today);
         day = ((day == 6) ? 0 : day + 1); 
     }
+    primo_c = document.getElementById('primo_c').value;
+    if (primo_c == "") {
+        primo_c = 0;
+    } else {
+        primo_c = parseInt(primo_c);
+    }
+    gems += primo_c;
     result += (gems + "<br>");
     result += ("That's " + Math.trunc(gems / 160) + " pulls!");
 
