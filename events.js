@@ -14,14 +14,15 @@ var events = [["1.6 Patch Compensation","2021-06-08",600],
 ["Legend of the Vagabond Sword", "2021-06-28",60],
 ["Legend of the Vagabond Sword", "2021-06-29",60],
 ["Kazuha Trial","2021-06-29",20],
+["Archon Quest Chapter 2 Pt 1","2021-06-29",60],
 ["Legend of the Vagabond Sword", "2021-06-30",60],
 ["Legend of the Vagabond Sword", "2021-07-01",60],
+["Kaboomball Kombat", "2021-07-02", 300],
 ["Mihoyo Web Login","2021-07-06",20],
 ["2.0 Livestream Codes","2021-07-09",300],
+["Never-Ending Battle", "2021-07-09", 300],
 ["Mihoyo Web Login","2021-07-13",20],
 ["Mihoyo Web Login","2021-07-20",20],
-["Never-Ending Battle", "2021-07-20", 300],
-["Kaboomball Kombat", "2021-07-20", 300],
 ["2.0 Patch Compensation","2021-07-20",600]];
 
 function createTable() {
