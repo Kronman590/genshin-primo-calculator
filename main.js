@@ -16,7 +16,7 @@ function calcGems() {
     shopChecked = document.getElementById('stardust').checked;
     abyss = calcAbyssGems([document.getElementById('floor9').value, document.getElementById('floor10').value, 
         document.getElementById('floor11').value, document.getElementById('floor12').value]);
-    bplvl = document.getElementById('lvl').value;
+    bplvl = parseFloat(document.getElementById('lvl').value);
     if(isNaN(bplvl)) bplvl = 0;
 
     gems = 0;
@@ -36,7 +36,6 @@ function calcGems() {
             gems += abyss;
         }
         if(day == 1 && bpChecked) {
-            console.log(bplvl);
             if(bplvl < 40)
                 gems += 160;
             else if(bplvl < 50)
