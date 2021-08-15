@@ -14,9 +14,12 @@ var events = [["2.0 Patch Compensation","2021-07-20",600],
 ["Mihoyo Web Login","2021-08-10",20],
 ["Lost Riches", "2021-08-11", 60],
 ["Lost Riches", "2021-08-12", 60],
+["Theater Mechanicus", "2021-08-13", 120],
+["Theater Mechanicus", "2021-08-15", 120],
+["Theater Mechanicus", "2021-08-17", 120],
 ["Mihoyo Web Login","2021-08-17",20],
+["Theater Mechanicus", "2021-08-18", 60],
 ["2.1 Livestream Codes","2021-08-20",300],
-["Theater Mechanicus","2021-08-31",420],
 ["Phantom Flow","2021-08-31",420],
 ["2.1 Patch Compensation","2021-08-31",600],];
 
