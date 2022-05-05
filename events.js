@@ -26,16 +26,24 @@ var events = [["2.6 Patch Compensation","2022-03-29",600],
 ["Vibro Crystal Research","2022-04-25",70],
 ["Vibro Crystal Research","2022-04-26",70],
 ["Mihoyo Web Login","2022-05-03",20],
-["2.7 Livestream Codes","2022-05-05",300],
 ["Marvelous Merchandise","2022-05-06",40],
 ["Marvelous Merchandise","2022-05-07",40],
 ["Marvelous Merchandise","2022-05-08",40],
 ["Marvelous Merchandise","2022-05-09",40],
 ["Marvelous Merchandise","2022-05-10",140],
 ["Mihoyo Web Login","2022-05-10",20],
-["2.7 Patch Compensation","2022-05-10",600],
 ["Marvelous Merchandise","2022-05-11",40],
-["Marvelous Merchandise","2022-05-12",40],];
+["Marvelous Merchandise","2022-05-12",40],
+["Spices from the West","2022-05-14",60],
+["Spices from the West","2022-05-15",60],
+["Spices from the West","2022-05-16",60],
+["Mihoyo Web Login","2022-04-17",20],
+["Spices from the West","2022-05-17",60],
+["Spices from the West","2022-05-18",60],
+["Spices from the West","2022-05-19",60],
+["Spices from the West","2022-05-20",60],];
+// ["2.7 Livestream Codes","2022-05-05",300],
+// ["2.7 Patch Compensation","2022-05-10",600],
 
 function createTable() {
     var table = document.getElementById("events");
