@@ -44,9 +44,9 @@ var events = [["2.6 Patch Compensation","2022-03-29",600],
 ["Delay Compensation","2022-05-18",400],
 ["Spices from the West","2022-05-19",60],
 ["Spices from the West","2022-05-20",60],
-["Delay Compensation","2022-05-25",400],];
-// ["2.7 Livestream Codes","2022-05-05",300],
-// ["2.7 Patch Compensation","2022-05-10",600],
+["2.7 Livestream Codes","2022-05-20",300],
+["Delay Compensation","2022-05-25",400],
+["2.7 Patch Compensation","2022-05-31",600],];
 
 function createTable() {
     var table = document.getElementById("events");
