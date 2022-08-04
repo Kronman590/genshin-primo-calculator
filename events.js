@@ -26,6 +26,7 @@ var events = [["2.8 Patch Compensation","2022-07-12",600],
 ["Mihoyo Web Login","2022-08-10",20],
 ["2.8 Livestream Codes","2022-08-12",300],
 ["Mihoyo Web Login","2022-08-17",20],
+["Evermotion Mechanical Painting","2022-08-22",420],
 ["3.0 Patch Compensation","2022-08-23",600],];
 
 function createTable() {
