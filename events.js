@@ -34,9 +34,11 @@ var events = [
 ["Beetle Brawl","2023-02-16",80],
 ["Beetle Brawl","2023-02-17",80],
 ["Mihoyo Web Login","2023-02-17",20],
+["3.5 Livestream","2023-02-17",300],
 ["Beetle Brawl","2023-02-18",80],
 ["Beetle Brawl","2023-02-19",80],
 ["Beetle Brawl","2023-02-20",100],
+["3.5 Patch Compensation","2023-02-28",600],
 ];
 
 function createTable() {
