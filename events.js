@@ -35,6 +35,7 @@ var events = [
 ["Mihoyo Web Login","2023-04-03",20],
 ["Spices from the West: Northerly Search","2023-04-04",60],
 ["Spices from the West: Northerly Search","2023-04-05",60],
+["Spices from the West: Northerly Search","2023-04-06",60],
 ["Mihoyo Web Login","2023-04-10",20],
 ["3.6 Patch Compensation","2023-04-11",600],
 ];
