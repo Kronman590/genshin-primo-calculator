@@ -1,8 +1,8 @@
 export const eventList = [
     ["4.0 Patch Compensation","2023-08-15",600],
     ["Lyney/Yelan Trial","2023-08-15",40],
-    ["Archon Quest Act 4 Ch 1","2023-08-15",60],
-    ["Archon Quest Act 4 Ch 2","2023-08-15",60],
+    ["Archon Quest Act 4 Ch 1","2023-08-15",220],
+    ["Archon Quest Act 4 Ch 2","2023-08-15",220],
     ["Lyney Story Quest","2023-08-15",60],
     ["Relic Records: Creations of the Hydro Nation","2023-08-15",75],
     ["Relic Records: Creations of the Hydro Nation","2023-08-15",75],
