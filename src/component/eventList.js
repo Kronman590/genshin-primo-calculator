@@ -43,6 +43,7 @@ export const eventList = [
     ["4.2 Livestream Codes","2023-10-28",0],
     ["The Peaks and Troughs of Life","2023-10-28",90],
     ["The Peaks and Troughs of Life","2023-10-29",60],
+    ["Waterborne Poetry","2023-10-30",0],
     ["Mihoyo Web Login","2023-11-03",20],
     ["4.2 Patch Compensation","2023-11-07",600],
 ];
