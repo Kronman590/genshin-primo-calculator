@@ -34,7 +34,7 @@ export const eventList = [
     ["Dodoco's Bomb-tastic Adventure","2023-10-16",0],
     ["Wriothesley/Venti Trial","2023-10-17",40],
     ["Mihoyo Web Login","2023-10-17",20],
-    ["Waterborne Poetry","2023-10-18",200],
+    ["Waterborne Poetry","2023-10-18",270],
     ["The Peaks and Troughs of Life","2023-10-25",90],
     ["The Peaks and Troughs of Life","2023-10-26",90],
     ["The Peaks and Troughs of Life","2023-10-27",90],
