@@ -7,7 +7,7 @@ export const eventList = [
     ["Roses and Muskets","2023-12-23",210],
     ["Roses and Muskets","2023-12-24",120],
     ["Roses and Muskets","2023-12-25",190],
-    ["Roses and Muskets","2023-12-26",90],
+    ["Roses and Muskets","2023-12-26",120],
     ["Roses and Muskets","2023-12-27",90],
     ["Lost Riches","2024-01-02",60],
     ["Lost Riches","2024-01-03",60],
