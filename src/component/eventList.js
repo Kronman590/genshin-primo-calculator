@@ -14,7 +14,7 @@ export const eventList = [
     ["Iridescent Arataki Rockin' For Life Tour de Force of Awesomeness", "2024-05-08", 190],
     ["Vibro-Crystal Applications","2024-05-09",0],
     ["Iridescent Arataki Rockin' For Life Tour de Force of Awesomeness", "2024-05-09", 90],
-    ["Iridescent Arataki Rockin' For Life Tour de Force of Awesomeness", "2024-05-10", 240],
+    ["Iridescent Arataki Rockin' For Life Tour de Force of Awesomeness", "2024-05-10", 270],
     ["Mihoyo Web Login","2024-05-10",20],
     ["Iridescent Arataki Rockin' For Life Tour de Force of Awesomeness", "2024-05-11", 90],
     ["Iridescent Arataki Rockin' For Life Tour de Force of Awesomeness", "2024-05-12", 60],
