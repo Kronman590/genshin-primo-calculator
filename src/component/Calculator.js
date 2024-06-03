@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Box from '@mui/material/Box'
 import PropTypes from 'prop-types';
 import dayjs from 'dayjs';
 import Grid from '@mui/material/Grid';
@@ -27,6 +28,7 @@ const Calculator = ({ events }) => {
     "Floor 10": 0,
     "Floor 11": 0,
     "Floor 12": 0,
+    "Theater": 0,
   });
   const [endDate, setEndDate] = useState(todayString);
   const [gems, setGemsState] = useState("");
@@ -83,6 +85,7 @@ const Calculator = ({ events }) => {
               <br/>
             </>}
             <FormControlLabel onChange={handleShop} control={<Checkbox checked={shopPulls} />} label="Purchase Fates from Stardust shop at reset?" />
+            <Box/>
             <Typography>Spiral Abyss Stars (select stars you expect to get each reset):</Typography>
             <br/>
             <div>
@@ -97,9 +100,9 @@ const Calculator = ({ events }) => {
                   style={{width:"10rem"}}
                 >
                   <MenuItem value={0}>0 Stars</MenuItem>
-                  <MenuItem value={3}>3 Stars</MenuItem>
-                  <MenuItem value={6}>6 Stars</MenuItem>
-                  <MenuItem value={9}>9 Stars</MenuItem>
+                  <MenuItem value={50}>3 Stars</MenuItem>
+                  <MenuItem value={100}>6 Stars</MenuItem>
+                  <MenuItem value={150}>9 Stars</MenuItem>
                 </Select>
               </Grid>
               <Grid item xs={3}>
@@ -112,9 +115,9 @@ const Calculator = ({ events }) => {
                   style={{width:"10rem"}}
                 >
                   <MenuItem value={0}>0 Stars</MenuItem>
-                  <MenuItem value={3}>3 Stars</MenuItem>
-                  <MenuItem value={6}>6 Stars</MenuItem>
-                  <MenuItem value={9}>9 Stars</MenuItem>
+                  <MenuItem value={50}>3 Stars</MenuItem>
+                  <MenuItem value={100}>6 Stars</MenuItem>
+                  <MenuItem value={150}>9 Stars</MenuItem>
                 </Select>
               </Grid>
               <Grid item xs={3}>
@@ -127,9 +130,9 @@ const Calculator = ({ events }) => {
                   style={{width:"10rem"}}
                 >
                   <MenuItem value={0}>0 Stars</MenuItem>
-                  <MenuItem value={3}>3 Stars</MenuItem>
-                  <MenuItem value={6}>6 Stars</MenuItem>
-                  <MenuItem value={9}>9 Stars</MenuItem>
+                  <MenuItem value={50}>3 Stars</MenuItem>
+                  <MenuItem value={100}>6 Stars</MenuItem>
+                  <MenuItem value={150}>9 Stars</MenuItem>
                 </Select>
               </Grid>
               <Grid item xs={3}>
@@ -142,15 +145,36 @@ const Calculator = ({ events }) => {
                   style={{width:"10rem"}}
                 >
                   <MenuItem value={0}>0 Stars</MenuItem>
-                  <MenuItem value={3}>3 Stars</MenuItem>
-                  <MenuItem value={6}>6 Stars</MenuItem>
-                  <MenuItem value={9}>9 Stars</MenuItem>
+                  <MenuItem value={50}>3 Stars</MenuItem>
+                  <MenuItem value={100}>6 Stars</MenuItem>
+                  <MenuItem value={150}>9 Stars</MenuItem>
                 </Select>
               </Grid>
             </Grid>
             </div>
             <br/>
-            <Typography>Select end date for calculation:</Typography>
+            <Grid item xs={6}>
+                <Typography>Imaginarium Theater (select stars you expect to get each reset):</Typography>
+                <br/>
+                <Select
+                  value={abyssStars["Theater"]}
+                  name="Theater"
+                  onChange={handleStars}
+                  size="small"
+                  style={{width:"10rem"}}
+                >
+                  <MenuItem value={0}>0 Stars</MenuItem>
+                  <MenuItem value={60}>1 Stars</MenuItem>
+                  <MenuItem value={120}>2 Stars</MenuItem>
+                  <MenuItem value={220}>3 Stars</MenuItem>
+                  <MenuItem value={280}>4 Stars</MenuItem>
+                  <MenuItem value={340}>5 Stars</MenuItem>
+                  <MenuItem value={440}>6 Stars</MenuItem>
+                  <MenuItem value={500}>7 Stars</MenuItem>
+                  <MenuItem value={620}>8 Stars</MenuItem>
+                </Select>
+              </Grid>
+            <Typography style={{padding:'1rem'}}>Select end date for calculation:</Typography>
             <br/>
             <LocalizationProvider dateAdapter={AdapterDayjs}>
                 <DatePicker 
@@ -159,7 +183,7 @@ const Calculator = ({ events }) => {
                   value={endDate} />
             </LocalizationProvider>
             <br/>
-            <Typography>Starting Primogem Count:</Typography>
+            <Typography style={{padding:'1rem'}}>Starting Primogem Count:</Typography>
             <br/>
             <TextField
               id="outlined-number"
@@ -170,7 +194,7 @@ const Calculator = ({ events }) => {
                 setGemsState(e.target.value);
               }}
             />
-            <br/>
+            <Box/>
             <Button variant="contained" onClick={onCalculate}>Calculate</Button>
           </FormGroup>
         </Card>

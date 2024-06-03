@@ -3,7 +3,8 @@ import { eventList } from "./eventList";
 export const calcGems = (gemInput, bpInput, welkinCheck, bpChecked, shopChecked, abyssStars, endDate, selectedEvents) => {
 
     var result = "Gems you will be able to save is: ";
-    const abyss = Object.values(abyssStars).reduce((partialSum, a) => partialSum + a, 0) * 50 / 3;
+    const abyss = abyssStars["Floor 9"]+abyssStars["Floor 10"]+abyssStars["Floor 11"]+abyssStars["Floor 12"];
+    const theater = abyssStars["Theater"];
     var bplvl = Number(bpInput);
 
     const includeEvents = JSON.parse(JSON.stringify(selectedEvents));
@@ -29,8 +30,12 @@ export const calcGems = (gemInput, bpInput, welkinCheck, bpChecked, shopChecked,
         if(shopChecked && today.getDate() == 1) {
             gems += 160*5;
         }
-        if(abyss > 0 && (today.getDate() == 1 || today.getDate() == 16)) {
+        if(abyss > 0 && (today.getDate() == 16)) {
             gems += abyss;
+        }
+        console.log(theater)
+        if(theater > 0 && (today.getDate() == 1)) {
+            gems += theater;
         }
         if(bpChecked && bplvl < 50) {
             bplvl += 1.5;
