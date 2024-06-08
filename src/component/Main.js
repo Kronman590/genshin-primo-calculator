@@ -47,7 +47,7 @@ const Main = () => {
         </div>
       <div className="header">
         <p><b>Assumptions:</b><br/>Battle Pass advances 1.5 levels every day, counting only the primogems & Intertwined Fate.<br/>
-          Spiral Abyss gems are obtained on reset (1st and 16th of each month).<br/>
+          Imaginarium Theater and Spiral Abyss gems are obtained on reset (1st and 16th of each month respectively).<br/>
           Only Intertwined Fates are counted from the Stardust shop. Assumed all 5 are purchased.<br/>
           All gems available today have already been claimed.<br/>
           Event gems are obtained by default when they begin (i.e. login events last 2 weeks, but rewards are obtained in the first 7 days).<br/>
