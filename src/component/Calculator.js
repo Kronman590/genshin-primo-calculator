@@ -102,7 +102,7 @@ const Calculator = ({ events }) => {
                   <MenuItem value={0}>0 Stars</MenuItem>
                   <MenuItem value={50}>3 Stars</MenuItem>
                   <MenuItem value={100}>6 Stars</MenuItem>
-                  <MenuItem value={150}>9 Stars</MenuItem>
+                  <MenuItem value={200}>9 Stars</MenuItem>
                 </Select>
               </Grid>
               <Grid item xs={3}>
@@ -117,7 +117,7 @@ const Calculator = ({ events }) => {
                   <MenuItem value={0}>0 Stars</MenuItem>
                   <MenuItem value={50}>3 Stars</MenuItem>
                   <MenuItem value={100}>6 Stars</MenuItem>
-                  <MenuItem value={150}>9 Stars</MenuItem>
+                  <MenuItem value={200}>9 Stars</MenuItem>
                 </Select>
               </Grid>
               <Grid item xs={3}>
@@ -132,7 +132,7 @@ const Calculator = ({ events }) => {
                   <MenuItem value={0}>0 Stars</MenuItem>
                   <MenuItem value={50}>3 Stars</MenuItem>
                   <MenuItem value={100}>6 Stars</MenuItem>
-                  <MenuItem value={150}>9 Stars</MenuItem>
+                  <MenuItem value={200}>9 Stars</MenuItem>
                 </Select>
               </Grid>
               <Grid item xs={3}>
@@ -147,7 +147,7 @@ const Calculator = ({ events }) => {
                   <MenuItem value={0}>0 Stars</MenuItem>
                   <MenuItem value={50}>3 Stars</MenuItem>
                   <MenuItem value={100}>6 Stars</MenuItem>
-                  <MenuItem value={150}>9 Stars</MenuItem>
+                  <MenuItem value={200}>9 Stars</MenuItem>
                 </Select>
               </Grid>
             </Grid>
