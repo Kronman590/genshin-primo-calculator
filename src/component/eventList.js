@@ -18,6 +18,7 @@ export const eventList = [
     ["Outside the Canvas, Inside the Lens: Dew-Kissed Chapter","2024-08-04",60],
     ["Outside the Canvas, Inside the Lens: Dew-Kissed Chapter","2024-08-05",60],
     ["Emilie/Yelan Trial","2024-08-06",40],
+    ["Emilie Story Quest","2024-08-06",60],
     ["Energy Amplifier","2024-08-06",70],
     ["Energy Amplifier","2024-08-07",70],
     ["Energy Amplifier","2024-08-08",70],
