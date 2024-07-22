@@ -1,10 +1,10 @@
 export const eventList = [
     ["4.8 Patch Compensation","2024-07-16",600],
     ["Navia/Nilou Trial","2024-07-16",40],
-    ["Summertime Scales and Tales","2024-07-16",170],
+    ["Summertime Scales and Tales","2024-07-16",230],
     ["Mihoyo Web Login","2024-07-17",20],
     ["Summertime Scales and Tales","2024-07-19",250],
-    ["Summertime Scales and Tales","2024-07-21",170],
+    ["Summertime Scales and Tales","2024-07-21",210],
     ["Summertime Scales and Tales","2024-07-23",160],
     ["Outside the Canvas, Inside the Lens: Dew-Kissed Chapter","2024-07-29",60],
     ["Outside the Canvas, Inside the Lens: Dew-Kissed Chapter","2024-07-30",60],
