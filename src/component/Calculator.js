@@ -172,6 +172,8 @@ const Calculator = ({ events }) => {
                   <MenuItem value={440}>6 Stars</MenuItem>
                   <MenuItem value={500}>7 Stars</MenuItem>
                   <MenuItem value={620}>8 Stars</MenuItem>
+                  <MenuItem value={680}>9 Stars</MenuItem>
+                  <MenuItem value={800}>10 Stars</MenuItem>
                 </Select>
               </Grid>
             <Typography style={{padding:'1rem'}}>Select end date for calculation:</Typography>
