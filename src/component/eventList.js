@@ -15,7 +15,7 @@ export const eventList = [
     ["Anniversary: Brilliant Dawn","2024-08-30",160],
     ["Anniversary: Brilliant Dawn","2024-09-01",320],
     ["Imaginarium Theater Visionary Mode","2024-09-01",400],
-    ["Traces of Artistry","2024-09-01",340],
+    ["Traces of Artistry","2024-09-01",440],
     ["Anniversary: Brilliant Dawn","2024-09-03",320],
     ["Mihoyo Web Login","2024-09-03",20],
     ["Anniversary: Brilliant Dawn","2024-09-05",800],
