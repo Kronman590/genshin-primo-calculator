@@ -32,15 +32,11 @@ export const eventList = [
     ["Adventurer's Trials: Metamorphosis","2024-12-14",105],
     ["Iktomi Spiritseeking Scrolls", "2024-12-16", 0],
     ["Mihoyo Web Login","2024-12-17",20],
-    ["Exercise Surging Storm","2024-12-18",60],
-    ["Exercise Surging Storm","2024-12-19",60],
-    ["Exercise Surging Storm","2024-12-20",60],
+    ["Exercise Surging Storm","2024-12-18",220],
+    ["Exercise Surging Storm","2024-12-20",80],
     ["5.3 Livestream Codes","2024-12-20",300],  
     ["5.3 Livestream Codes","2024-12-21",0],
-    ["Exercise Surging Storm","2024-12-21",60],
-    ["Exercise Surging Storm","2024-12-22",60],
-    ["Exercise Surging Storm","2024-12-23",60],
-    ["Exercise Surging Storm","2024-12-23",60],
+    ["Exercise Surging Storm","2024-12-22",120],
     ["5.3 Patch Compensation","2024-12-31",600],
 ];
 
