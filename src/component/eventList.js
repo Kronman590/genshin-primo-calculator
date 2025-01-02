@@ -1,4 +1,5 @@
 export const eventList = [
+    ["5.3 Patch Compensation","2024-12-31",600],
     ["Mauvika/Citali Trial","2024-12-31",40],
     ["Archon Quest Act 5 Ch 5","2024-12-31",750],
     ["Mauvika Story Quest","2024-12-31",120],
@@ -30,7 +31,7 @@ export const eventList = [
     ["May Fortune Find You: Spring's Premonition","2025-01-24",320],
     ["Springtime Charms","2024-01-26",310],
     ["May Fortune Find You: Spring's Premonition","2025-01-26",320],
-    ["On the Trail of Behemoths","2025-01-27",120],
+    ["On the Trail of Behemoths","2025-01-27",0],
     ["Springtime Charms","2024-01-28",80],
     ["May Fortune Find You: Spring's Premonition","2025-01-28",800],
     ["5.4 Livestream Codes","2025-01-31",300],  
@@ -1215,5 +1216,4 @@ const past_events = [
 ["5.3 Livestream Codes","2024-12-20",300],  
 ["5.3 Livestream Codes","2024-12-21",0],
 ["Exercise Surging Storm","2024-12-22",120],
-["5.3 Patch Compensation","2024-12-31",600],
 ];
