@@ -62,6 +62,16 @@ const Calculator = ({ events }) => {
     setPullsDisplay(calcGems(gems, bplvl, monthlyPass, battlePass, shopPulls, abyssStars, endDate, events));
   };
 
+  const onMax = () => {
+    setAbyssStars({
+      "Floor 9": 200,
+      "Floor 10": 200,
+      "Floor 11": 200,
+      "Floor 12": 200,
+      "Theater": 800
+    });
+  }
+
   return (
     <Grid container spacing={2}>
       <Grid item xs={12}>
@@ -176,6 +186,9 @@ const Calculator = ({ events }) => {
                   <MenuItem value={800}>10 Stars</MenuItem>
                 </Select>
               </Grid>
+            <Box/>
+            <Button variant="contained" size="small" onClick={onMax}>Maximize endgame stars</Button>
+            <Box/>
             <Typography style={{padding:'1rem'}}>Select end date for calculation:</Typography>
             <br/>
             <LocalizationProvider dateAdapter={AdapterDayjs}>
