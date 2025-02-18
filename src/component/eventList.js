@@ -12,7 +12,7 @@ export const eventList = [
     ["Mihoyo Web Login","2025-02-17",20],
     ["Mizuki's Hot Spring Therapy","2025-02-17",30],
     ["Enchanted Tales of the Mikawa Festival","2025-02-17",170],
-    ["Enchanted Tales of the Mikawa Festival","2025-02-18",200],
+    ["Enchanted Tales of the Mikawa Festival","2025-02-18",230],
     ["Realm of Tempered Valor","2025-02-24",80],
     ["Realm of Tempered Valor","2025-02-25",80],
     ["Realm of Tempered Valor","2025-02-26",80],
