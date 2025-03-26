@@ -54,10 +54,6 @@ const Calculator = ({ events }) => {
     });
   };
 
-  const handleEndDate = (e) => {
-    setEndDate(e.$d);
-  };
-
   const onCalculate = () => {
     setPullsDisplay(calcGems(gems, bplvl, monthlyPass, battlePass, shopPulls, abyssStars, endDate, events));
   };
@@ -194,7 +190,7 @@ const Calculator = ({ events }) => {
             <LocalizationProvider dateAdapter={AdapterDayjs}>
                 <DatePicker 
                   label="End date"
-                  onChange={handleEndDate}
+                  onChange={(newDate) => setEndDate(newDate)}
                   value={endDate} />
             </LocalizationProvider>
             <br/>
