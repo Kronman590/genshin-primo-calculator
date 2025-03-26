@@ -41,7 +41,3 @@ table, th, td {
 span {
   display: inline-block;
 }
-
-div, span {
-  padding: 5px; 
-}

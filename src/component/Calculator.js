@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Box from '@mui/material/Box'
+// import Box from '@mui/material/Box';
 import PropTypes from 'prop-types';
 import dayjs from 'dayjs';
 import Grid from '@mui/material/Grid';
@@ -19,7 +19,7 @@ import { calcGems } from "./helpers";
 
 const Calculator = ({ events }) => {
   const today = new Date();
-  const todayString = dayjs(today.toString())
+  const todayString = dayjs(today.toString());
   const [monthlyPass, setMonthlyPass] = useState(false);
   const [battlePass, setBattlePass] = useState(false);
   const [shopPulls, setShopPulls] = useState(false);
@@ -35,23 +35,8 @@ const Calculator = ({ events }) => {
   const [bplvl, setBPLevel] = useState("");
   const [displayPulls, setPullsDisplay] = useState("");
 
-  const handleMonthly = (e) => {
-    setMonthlyPass(e.target.checked);
-  };
-
-  const handleBattlePass = (e) => {
-    setBattlePass(e.target.checked);
-  };
-
-  const handleShop = (e) => {
-    setShopPulls(e.target.checked);
-  };
-
   const handleStars = (e) => {
-    setAbyssStars({
-      ...abyssStars,
-      [e.target.name]: e.target.value
-    });
+    setAbyssStars({ ...abyssStars, [e.target.name]: e.target.value });
   };
 
   const onCalculate = () => {
@@ -64,163 +49,78 @@ const Calculator = ({ events }) => {
       "Floor 10": 200,
       "Floor 11": 200,
       "Floor 12": 200,
-      "Theater": 800
+      "Theater": 800,
     });
-  }
+  };
 
   return (
-    <Grid container spacing={2}>
+    <Grid container spacing={2} sx={{ padding: 2 }}>
       <Grid item xs={12}>
-        <Card sx={{ minWidth: '100%' }}>
-          <FormGroup style={{alignItems: "center"}}>
-            <FormControlLabel onChange={handleMonthly} control={<Checkbox checked={monthlyPass} />} label="Monthly Welkin?" />
-            <FormControlLabel onChange={handleBattlePass} control={<Checkbox checked={battlePass} />} label="Paid for Battle Pass for current patch?" />
-            {battlePass && <>
-              <Typography>Battle Pass current Level:</Typography>
-              <br/>
-              <TextField
-                id="outlined-number"
-                label="BP Level"
-                type="number"
-                size="small"
-                value={bplvl}
-                onChange={(e) => {
-                  setBPLevel(e.target.value);
-                }}
-              />
-              <br/>
-            </>}
-            <FormControlLabel onChange={handleShop} control={<Checkbox checked={shopPulls} />} label="Purchase Fates from Stardust shop at reset?" />
-            <Box/>
-            <Typography>Spiral Abyss Stars (select stars you expect to get each reset):</Typography>
-            <br/>
-            <div>
-            <Grid container spacing={2}>
-              <Grid item xs={3}>
-                <Typography>Floor 9:</Typography>
-                <Select
-                  value={abyssStars["Floor 9"]}
-                  name="Floor 9"
-                  onChange={handleStars}
+        <Card sx={{ padding: 2, width: '100%' }}>
+          <FormGroup sx={{ alignItems: "center" }}>
+            <FormControlLabel control={<Checkbox checked={monthlyPass} onChange={(e) => setMonthlyPass(e.target.checked)} />} label="Monthly Welkin?" />
+            <FormControlLabel control={<Checkbox checked={battlePass} onChange={(e) => setBattlePass(e.target.checked)} />} label="Paid for Battle Pass for current patch?" />
+            {battlePass && (
+              <>
+                <Typography>Battle Pass current Level:</Typography>
+                <TextField
+                  label="BP Level"
+                  type="number"
                   size="small"
-                  style={{width:"10rem"}}
-                >
-                  <MenuItem value={0}>0 Stars</MenuItem>
-                  <MenuItem value={50}>3 Stars</MenuItem>
-                  <MenuItem value={100}>6 Stars</MenuItem>
-                  <MenuItem value={200}>9 Stars</MenuItem>
-                </Select>
-              </Grid>
-              <Grid item xs={3}>
-                <Typography>Floor 10:</Typography>
-                <Select
-                  value={abyssStars["Floor 10"]}
-                  name="Floor 10"
-                  onChange={handleStars}
-                  size="small"
-                  style={{width:"10rem"}}
-                >
-                  <MenuItem value={0}>0 Stars</MenuItem>
-                  <MenuItem value={50}>3 Stars</MenuItem>
-                  <MenuItem value={100}>6 Stars</MenuItem>
-                  <MenuItem value={200}>9 Stars</MenuItem>
-                </Select>
-              </Grid>
-              <Grid item xs={3}>
-                <Typography>Floor 11:</Typography>
-                <Select
-                  value={abyssStars["Floor 11"]}
-                  name="Floor 11"
-                  onChange={handleStars}
-                  size="small"
-                  style={{width:"10rem"}}
-                >
-                  <MenuItem value={0}>0 Stars</MenuItem>
-                  <MenuItem value={50}>3 Stars</MenuItem>
-                  <MenuItem value={100}>6 Stars</MenuItem>
-                  <MenuItem value={200}>9 Stars</MenuItem>
-                </Select>
-              </Grid>
-              <Grid item xs={3}>
-                <Typography>Floor 12:</Typography>
-                <Select
-                  value={abyssStars["Floor 12"]}
-                  name="Floor 12"
-                  onChange={handleStars}
-                  size="small"
-                  style={{width:"10rem"}}
-                >
-                  <MenuItem value={0}>0 Stars</MenuItem>
-                  <MenuItem value={50}>3 Stars</MenuItem>
-                  <MenuItem value={100}>6 Stars</MenuItem>
-                  <MenuItem value={200}>9 Stars</MenuItem>
-                </Select>
-              </Grid>
+                  value={bplvl}
+                  onChange={(e) => setBPLevel(e.target.value)}
+                  sx={{ mt: 1, width: '10rem' }}
+                />
+              </>
+            )}
+            <FormControlLabel control={<Checkbox checked={shopPulls} onChange={(e) => setShopPulls(e.target.checked)} />} label="Purchase Fates from Stardust shop at reset?" />
+            <Typography sx={{ mt: 2 }}>Spiral Abyss Stars (select stars you expect to get each reset):</Typography>
+            <Grid container spacing={2} sx={{ mt: 1 }}>
+              {Object.keys(abyssStars).map((floor) => (
+                <Grid item xs={3} key={floor}>
+                  <Typography>{floor}:</Typography>
+                  <Select
+                    value={abyssStars[floor]}
+                    name={floor}
+                    onChange={handleStars}
+                    size="small"
+                    sx={{ width: "10rem", mt: 1 }}
+                  >
+                    {[0, 50, 100, 200].map((val) => (
+                      <MenuItem key={val} value={val}>{val} Stars</MenuItem>
+                    ))}
+                  </Select>
+                </Grid>
+              ))}
             </Grid>
-            </div>
-            <br/>
-            <Grid item xs={6}>
-                <Typography>Imaginarium Theater (select stars you expect to get each reset):</Typography>
-                <br/>
-                <Select
-                  value={abyssStars["Theater"]}
-                  name="Theater"
-                  onChange={handleStars}
-                  size="small"
-                  style={{width:"10rem"}}
-                >
-                  <MenuItem value={0}>0 Stars</MenuItem>
-                  <MenuItem value={60}>1 Stars</MenuItem>
-                  <MenuItem value={120}>2 Stars</MenuItem>
-                  <MenuItem value={220}>3 Stars</MenuItem>
-                  <MenuItem value={280}>4 Stars</MenuItem>
-                  <MenuItem value={340}>5 Stars</MenuItem>
-                  <MenuItem value={440}>6 Stars</MenuItem>
-                  <MenuItem value={500}>7 Stars</MenuItem>
-                  <MenuItem value={620}>8 Stars</MenuItem>
-                  <MenuItem value={680}>9 Stars</MenuItem>
-                  <MenuItem value={800}>10 Stars</MenuItem>
-                </Select>
-              </Grid>
-            <Box/>
-            <Button variant="contained" size="small" onClick={onMax}>Maximize endgame stars</Button>
-            <Box/>
-            <Typography style={{padding:'1rem'}}>Select end date for calculation:</Typography>
-            <br/>
+            <Button variant="contained" size="small" onClick={onMax} sx={{ mt: 2 }}>Maximize endgame stars</Button>
+            <Typography sx={{ mt: 2 }}>Select end date for calculation:</Typography>
             <LocalizationProvider dateAdapter={AdapterDayjs}>
-                <DatePicker 
-                  label="End date"
-                  onChange={(newDate) => setEndDate(newDate)}
-                  value={endDate} />
+              <DatePicker label="End date" onChange={(newDate) => setEndDate(newDate)} value={endDate} sx={{ mt: 1 }} />
             </LocalizationProvider>
-            <br/>
-            <Typography style={{padding:'1rem'}}>Starting Primogem Count:</Typography>
-            <br/>
+            <Typography sx={{ mt: 2 }}>Starting Primogem Count:</Typography>
             <TextField
-              id="outlined-number"
               label="Primogem"
               type="number"
               value={gems}
-              onChange={(e) => {
-                setGemsState(e.target.value);
-              }}
+              onChange={(e) => setGemsState(e.target.value)}
+              sx={{ mt: 1, width: '10rem' }}
             />
-            <Box/>
-            <Button variant="contained" onClick={onCalculate}>Calculate</Button>
+            <Button variant="contained" onClick={onCalculate} sx={{ mt: 2 }}>Calculate</Button>
           </FormGroup>
         </Card>
       </Grid>
-      {displayPulls && <Grid item xs={12}>
-        <Card sx={{ minWidth: '100%' }} style={{padding: "100px 0px", background: "pink", border: "2px solid cyan", color: "black"}}>
-          <Typography style={{whiteSpace: 'pre-line'}}>{displayPulls}</Typography>
+      {displayPulls && (
+        <Card sx={{ padding: 2, width: '80%', background: "pink", border: "2px solid cyan", color: "black" }}>
+          <Typography sx={{ whiteSpace: 'pre-line' }}>{displayPulls}</Typography>
         </Card>
-      </Grid>}
+      )}
     </Grid>
   );
 };
 
 Calculator.propTypes = {
   events: PropTypes.arrayOf(PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.string, PropTypes.number]))).isRequired,
-}
+};
 
 export default Calculator;
