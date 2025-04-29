@@ -53,6 +53,28 @@ const Calculator = ({ events }) => {
     });
   };
 
+  const endgameMap = {
+    "Floor": [
+      { stars: 0, val: 0 },
+      { stars: 3, val: 50 },
+      { stars: 6, val: 100 },
+      { stars: 9, val: 200 }
+    ],
+    "Theater": [
+      { stars: 0, val: 0 },
+      { stars: 1, val: 60 },
+      { stars: 2, val: 120 },
+      { stars: 3, val: 220 },
+      { stars: 4, val: 280 },
+      { stars: 5, val: 340 },
+      { stars: 6, val: 440 },
+      { stars: 7, val: 500 },
+      { stars: 8, val: 620 },
+      { stars: 9, val: 680 },
+      { stars: 10, val: 800 }
+    ],
+  }
+
   return (
     <Grid container spacing={2} sx={{ padding: 2 }}>
       <Grid item xs={12}>
@@ -86,8 +108,8 @@ const Calculator = ({ events }) => {
                     size="small"
                     sx={{ width: "10rem", mt: 1 }}
                   >
-                    {[0, 50, 100, 200].map((val) => (
-                      <MenuItem key={val} value={val}>{val} Stars</MenuItem>
+                    {endgameMap[floor.split(" ")[0]].map((pair) => (
+                      <MenuItem key={pair.stars} value={pair.val}>{pair.stars} Stars</MenuItem>
                     ))}
                   </Select>
                 </Grid>
