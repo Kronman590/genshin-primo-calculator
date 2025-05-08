@@ -2,7 +2,7 @@ export const eventList = [
     ["5.6 Patch Compensation","2025-05-06",600],
     ["Escoffier/Naiva Trial","2025-05-06",40],
     ["Escoffier Story Quest","2025-05-06",120],
-    ["Archon Quest Interlude Act 4","2025-05-06",60],
+    ["Archon Quest Interlude Act 4","2025-05-06",220],
     ["Whirling Waltz","2025-05-09",360],
     ["Mihoyo Web Login","2025-05-10",20],
     ["Whirling Waltz","2025-05-11",340],
