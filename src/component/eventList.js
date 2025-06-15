@@ -2,6 +2,7 @@ export const eventList = [
     ["Mihoyo Web Login","2025-06-17",20],
     ["5.7 Patch Compensation","2025-06-17",600],
     ["Skirk/Emilie Trial","2025-06-17",40],
+    ["Archon Quest Act 5 Ch 6","2025-05-06",220],
     ["Through Yesterdays, to Today","2025-06-17",160],
     ["Travelers' Tales: Gilded Chapter","2025-06-17",30],
     ["Travelers' Tales: Gilded Chapter","2025-06-18",30],
