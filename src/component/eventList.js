@@ -1,7 +1,8 @@
 export const eventList = [
     ["Mihoyo Web Login","2025-06-17",20],
     ["5.7 Patch Compensation","2025-06-17",600],
-    ["Skirk/Emilie Trial","2025-06-17",40],
+    ["Skirk/Shenhe Trial","2025-06-17",40],
+    ["Skirk Story Quest","2025-06-17",120],
     ["Archon Quest Act 5 Ch 6","2025-05-06",220],
     ["Through Yesterdays, to Today","2025-06-17",160],
     ["Travelers' Tales: Gilded Chapter","2025-06-17",30],
@@ -18,7 +19,7 @@ export const eventList = [
     ["Through Yesterdays, to Today","2025-07-02",0],
     ["Mihoyo Web Login","2025-07-03",20],
     ["Battle of Imagined Arrays","2025-07-07",0],
-    ["Mavuika/Shenhe Trial","2025-07-08",40],
+    ["Mavuika/Emilie Trial","2025-07-08",40],
     ["Mihoyo Web Login","2025-07-10",20],
     ["Reminiscent Regimen: Frenzy","2025-07-14",200],
     ["Reminiscent Regimen: Frenzy","2025-07-16",160],
