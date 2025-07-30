@@ -3,6 +3,7 @@ export const eventList = [
     ["Ineffa/Citlali Trial","2025-07-29",40],
     ["Archon Quest Act Moon Prelude","2025-07-29",60],
     ["Sunspray Summer Resort","2025-07-29",300],
+    ["Natlan: Plains of Flowing Flames","2025-07-29",60],
     ["Sunspray Summer Resort","2025-08-01",230],
     ["Ineffa's Emotional Care","2025-08-01",30],
     ["Sunspray Summer Resort","2025-08-03",290],
