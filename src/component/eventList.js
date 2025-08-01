@@ -1,7 +1,7 @@
 export const eventList = [
     ["5.8 Patch Compensation","2025-07-29",600],
     ["Ineffa/Citlali Trial","2025-07-29",40],
-    ["Archon Quest Act Moon Prelude","2025-07-29",60],
+    ["Archon Quest Act Moon Prelude","2025-07-29",220],
     ["Sunspray Summer Resort","2025-07-29",300],
     ["Natlan: Plains of Flowing Flames","2025-07-29",60],
     ["Sunspray Summer Resort Bonus","2024-07-29",100],
