@@ -49,7 +49,7 @@ const Calculator = ({ events }) => {
       "Floor 10": 200,
       "Floor 11": 200,
       "Floor 12": 200,
-      "Theater": 800,
+      "Theater": 1000,
     });
   };
 
