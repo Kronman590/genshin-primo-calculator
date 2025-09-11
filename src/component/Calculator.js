@@ -71,7 +71,9 @@ const Calculator = ({ events }) => {
       { stars: 7, val: 500 },
       { stars: 8, val: 620 },
       { stars: 9, val: 680 },
-      { stars: 10, val: 800 }
+      { stars: 10, val: 800 },
+      { stars: 11, val: 900 },
+      { stars: 12, val: 1000 },
     ],
   }
 
