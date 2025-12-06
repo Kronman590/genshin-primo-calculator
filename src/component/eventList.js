@@ -1,5 +1,7 @@
 export const eventList = [
     ["6.2 Patch Compensation","2025-12-02",600],
+    ["Archon Quest Act Moon 5","2025-12-02",190],
+    ["Archon Quest Act Moon 6","2025-12-02",750],
     ["Durin/Venti Trial","2025-12-02",40],
     ["Mili Snow Resort Party in Wonderland","2025-12-02",40],
     ["Mihoyo Web Login","2025-12-03",20],
