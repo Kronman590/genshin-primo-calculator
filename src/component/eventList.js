@@ -7,6 +7,7 @@ export const eventList = [
     ["Nod Krai Exploration Bonus","2026-01-13",100],
     ["Nod Krai Exploration Bonus","2026-01-13",100],
     ["Nod Krai Exploration Bonus","2026-01-13",100],
+    ["A Gift From The Sea Spirits","2026-01-13",30],
     ["Columbina/Ineffa Trial","2026-01-13",40],
     ["Where the Moon Returns||Web","2026-01-14",20],
     ["Shutterflash Memory Hunt","2026-01-16",100],
