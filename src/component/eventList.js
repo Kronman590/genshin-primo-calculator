@@ -2,6 +2,8 @@ export const eventList = [
     ["6.4 Patch Compensation","2026-02-24",600],
     ["Varka/Flins Trial","2026-02-24",40],
     ["Varka Story Quest","2026-02-24",120],
+    ["Rhythm Game - Nod-Krai: Gateway to the Borderland Elysium","2026-02-24",60],
+    ["Miliastra - Wonderland Treasures","2026-02-24",60],
     ["Challenge Varka","2026-02-25",30],
     ["Homeward, He Who Caught the Wind","2026-02-27",290],
     ["Homeward, He Who Caught the Wind","2026-03-01",290],
