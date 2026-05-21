@@ -1,7 +1,8 @@
 export const eventList = [
     ["6.6 Patch Compensation","2026-05-19",600],
     ["Nicole/Durin Trial","2026-05-19",40],
-    ["Archon Quest Act Moon 9","2026-05-19",560],
+    ["Archon Quest Act Moon 9","2026-05-19",190],
+    ["Archon Quest Act Moon 10","2026-05-19",750],
     ["Rhythm Game - Hexerei: Ballad of Whimsical Polyphony","2026-05-19",60],
     ["Nicole Story Workshop","2026-05-19",30],
     ["Mage Nicole's Tea Party","2026-05-20",20],
